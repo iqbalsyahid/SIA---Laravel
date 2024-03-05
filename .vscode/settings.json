@@ -1,0 +1,6 @@
+{
+    "github.gitAuthentication": true,
+    "git.allowForcePush": false,
+    "git.allowNoVerifyCommit": false,
+    "git.alwaysShowStagedChangesResourceGroup": false
+}
