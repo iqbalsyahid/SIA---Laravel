@@ -37,15 +37,25 @@
      php artisan make:model Setting -m
    
      php artisan make:model Pemesanan -m
+   
      php artisan make:model DetailPesan -m
+   
      php artisan make:model Pembelian -m
+   
      php artisan make:model DetailPembelian -m
+   
      php artisan make:model Retur -m
+   
      php artisan make:model DetailRetur -m
+   
      php artisan make:model Jurnal -m
-     php artisan make:model Pemesanan_tem 
-     php artisan make:model Temp_pesan 
+   
+     php artisan make:model Pemesanan_tem
+   
+     php artisan make:model Temp_pesan
+   
      php artisan make:model Beli
+   
      php artisan make:model Laporan
 
 3. Membuat trigger
