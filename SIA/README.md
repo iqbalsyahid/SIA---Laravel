@@ -47,6 +47,7 @@
 2. Membuat trigger
 
      php artisan make:migration trigger_bersih_tempesan
+   
      php artisan make:migration trigger_tambah
 
 ## Membuat Migration
