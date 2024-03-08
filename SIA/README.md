@@ -29,9 +29,13 @@
 1. Gunakan perintah berikut untuk membuat model dan migrasi untuk setiap entitas:
 
      php artisan make:model Barang -m
+   
      php artisan make:model Supplier -m
+   
      php artisan make:model Akun -m
+   
      php artisan make:model Setting -m
+   
      php artisan make:model Pemesanan -m
      php artisan make:model DetailPesan -m
      php artisan make:model Pembelian -m
@@ -44,7 +48,7 @@
      php artisan make:model Beli
      php artisan make:model Laporan
 
-2. Membuat trigger
+3. Membuat trigger
 
      php artisan make:migration trigger_bersih_tempesan
    
