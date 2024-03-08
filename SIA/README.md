@@ -1,29 +1,29 @@
 ## Pertemuan 1
 1. Buat proyek Laravel menggunakan perintah berikut:
 
-composer create-project --prefer-dist laravel/laravel ProjectSIA2
+    composer create-project --prefer-dist laravel/laravel ProjectSIA2
 
 2. Tambahkan paket dompdf untuk Laravel dengan perintah:
 
-composer require barryvdh/laravel-dompdf
+    composer require barryvdh/laravel-dompdf
 
 3. Pasang paket Sweet Alert menggunakan Composer:
 
-composer require realrashid/sweet-alert
+    composer require realrashid/sweet-alert
 
 ## Pertemuan 2
 
 ## Konfigurasi Database
-Nama Database: db_sia2
+    Nama Database: db_sia2
 
-Ubah file .env dengan konfigurasi berikut:
+    Ubah file .env dengan konfigurasi berikut:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=db_sia2
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=db_sia2
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 ## Pembuatan Model dan Migrasi
 1. Gunakan perintah berikut untuk membuat model dan migrasi untuk setiap entitas:
