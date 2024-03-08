@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         DB::unprepared('
-            CREATE VIEW tampil_pemesanan AS 
+            CREATE OR REPLACE VIEW tampil_pemesanan AS 
                 SELECT  detail_pesan.kd_brg AS kd_brg, detail_pesan.no_pesan AS no_pesan, 
                         barang.nm_brg AS nm_brg, detail_pesan.qty_pesan AS qty_pesan, 
                         detail_pesan.subtotal AS sub_total 
