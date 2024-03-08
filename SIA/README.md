@@ -66,14 +66,14 @@
 
 ## Membuat Migration
 1. barang
-
- Schema::create('barang', function (Blueprint $table){
-     $table->string('kd_brg',5)->primary();
-     $table->string('nm_brg',5);
-     $table->integer('harga');
-     $table->integer('stok');
+   
+     Schema::create('barang', function (Blueprint $table){
+         $table->string('kd_brg',5)->primary();
+         $table->string('nm_brg',5);
+         $table->integer('harga');
+         $table->integer('stok');
  }); 
-2. akun
+3. akun
 
  Schema::create('akun', function (Blueprint $table) {
      $table->string('no_akun',5)->primary();
