@@ -33,6 +33,12 @@
                 <i class="fas fa-fw fa-user"></i>
                 <span>{{ __('Master User') }}</span>
             </a>
+            <li class="nav-item ">
+                <a class="nav-link" href="{{ route('barang.index') }}">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>{{ __('Master Barang') }}</span>
+                </a>
+            </li>
         </li>
         @endrole
 
