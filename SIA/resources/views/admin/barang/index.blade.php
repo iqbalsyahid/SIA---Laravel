@@ -71,22 +71,22 @@
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Kode Barang</label>
-                    <input type="text" name="addkdbrg" id="addkdbrg" class="form-control" maxlegth="5" id="exampleFormControlInput1" >
+                    <input type="text" name="addkdbrg" id="addkdbrg" required class="form-control" maxlegth="5" id="exampleFormControlInput1" >
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Nama Barang</label>
-                    <input type="text" name="addnmbrg" id="addnmbrg" class="form-control" id="exampleFormControlInput1" >
+                    <input type="text" name="addnmbrg" id="addnmbrg" required class="form-control" id="exampleFormControlInput1" >
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Harga Barang</label>
-                    <input type="number" name="addharga" id="addharga" class="form-control" id="exampleFormControlInput1" >
+                    <input type="number" name="addharga" id="addharga" required class="form-control" id="exampleFormControlInput1" >
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Stok Barang</label>
-                    <input type="number" name="addstok" id="addstok" class="form-control" id="exampleFormControlInput1" >
+                    <input type="number" name="addstok" id="addstok" required class="form-control" id="exampleFormControlInput1" >
                 </div>
 
             </div>

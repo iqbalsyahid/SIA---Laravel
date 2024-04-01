@@ -42,12 +42,19 @@
                 </a>
             </li>
             
-            <li class="nav-item ">
-                <a class="nav-link" href="{{ route('supplier.index') }}">
-                    <i class="fas fa-fw fa-user"></i>
-                    <span>{{ __('Master Supplier') }}</span>
-                </a>
-            </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="{{ route('supplier.index') }}">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>{{ __('Master Supplier') }}</span>
+                    </a>
+                </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('akun.index') }}">
+                            <i class="fas fa-fw fa-book"></i> 
+                            <span>{{ __('Master Akun') }}</span>
+                        </a>
+                    </li>
         @endrole
 
        

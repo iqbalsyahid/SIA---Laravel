@@ -72,22 +72,22 @@
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Kode Supplier</label>
-                    <input type="text" name="kd_supp" id="kd_supp" class="form-control" maxlegth="5" id="exampleFormControlInput1" >
+                    <input type="text" name="kd_supp" id="kd_supp" required class="form-control" maxlegth="5" id="exampleFormControlInput1" >
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Nama Suppler</label>
-                    <input type="text" name="nm_supp" id="nm_supp" class="form-control" id="exampleFormControlInput1" >
+                    <input type="text" name="nm_supp" id="nm_supp" required class="form-control" id="exampleFormControlInput1" >
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Alamat</label>
-                    <input type="text" name="alamat" id="alamat" class="form-control" id="exampleFormControlInput1" >
+                    <input type="text" name="alamat" id="alamat" required class="form-control" id="exampleFormControlInput1" >
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Telepon</label>
-                    <input type="text" name="telepon" id="telepon" class="form-control" maxlegth="20" id="exampleFormControlInput1" >
+                    <input type="text" name="telepon" id="telepon" required class="form-control" maxlegth="20" id="exampleFormControlInput1" >
                 </div>
 
             </div>
