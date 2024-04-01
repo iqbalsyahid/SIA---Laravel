@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BarangController;
+use App\Http\Controllers\SupplierController;
 
 
 Auth::routes();
@@ -16,3 +17,7 @@ Route::resource('/user', UserController::class);
 //Barang
 Route::get('/barang/hapus/{id}', [BarangController::class, 'destroy']);
 Route::resource('/barang', BarangController::class);
+
+//Supplier
+Route::get('/supplier/hapus/{id}', [SupplierController::class, 'destroy']);
+Route::resource('/supplier', SupplierController::class);
