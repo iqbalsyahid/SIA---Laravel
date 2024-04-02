@@ -5,6 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\AkunController;
+use App\Http\Controllers\SettingController;
 
 
 Auth::routes();
@@ -26,3 +27,7 @@ Route::resource('/supplier', SupplierController::class);
 //Akun
 Route::get('/akun/hapus/{id}', [AkunController::class, 'destroy']);
 Route::resource('/akun', AkunController::class);
+
+// Setting
+Route::get('/setting', [SettingController::class, 'index'])->name('setting.index');
+Route::post('/setting/simpan', [SettingController::class, 'simpan']);
