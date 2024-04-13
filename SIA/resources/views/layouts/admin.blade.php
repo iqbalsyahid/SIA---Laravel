@@ -92,6 +92,13 @@
 <!-- Scripts -->
 <script src="{{ asset('asset/vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('asset/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+
+<script src="{{ asset('asset/js/datatables/datatables.min.js') }}"></script>
+<script src="{{ asset('asset/js/datatables/modules-datatables.js') }}"></script>
+<script src="{{ asset('asset/js/datatables/dataTables.bootstrap4.min.js') }}"></script>
+<script src="{{ asset('asset/js/datatables/dataTables.select.min.js') }}"></script>
+
+
 <script src="{{ asset('asset/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 <script src="{{ asset('asset/js/datatable.js') }}"></script>
 <script src="{{ asset('asset/js/sb-admin-2.min.js') }}"></script>

@@ -64,7 +64,27 @@
                         </li>
         @endrole
 
-       
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            {{ __('Transaksi') }}
+        </div>
+
+        @role('admin')
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('pemesanan.index') }}">
+                    <i class="fas fa-fw fa-shopping-cart"></i> 
+                    <span>{{ __('Pemesanan') }}</span>
+                </a>
+            </li>
+        @endrole
+
+
+
+
+
 
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
