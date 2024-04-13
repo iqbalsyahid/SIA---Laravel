@@ -6,6 +6,8 @@ use App\Http\Controllers\BarangController;
 use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\AkunController;
 use App\Http\Controllers\SettingController;
+use App\Http\Controllers\PemesananController;
+use App\Http\Controllers\DetailPesanController;
 
 
 Auth::routes();
@@ -31,3 +33,12 @@ Route::resource('/akun', AkunController::class);
 // Setting
 Route::get('/setting', [SettingController::class, 'index'])->name('setting.index');
 Route::post('/setting/simpan', [SettingController::class, 'simpan']);
+
+//Route Pemesanan
+Route::get('/transaksi', [PemesananController::class, 'index'])->name('pemesanan.index');
+Route::post('/sem/store', [PemesananController::class, 'store']);
+Route::get('/transaksi/hapus/{kd_brg}',[PemesananController::class, 'destroy']);
+
+//Route Detail Pesan
+Route::post('/detail/store', [DetailPesanController::class, 'store']);
+Route::post('/detail/simpan', [DetailPesanController::class, 'simpan']);
