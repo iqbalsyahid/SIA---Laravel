@@ -5,14 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Jurnal extends Model
+class Beli extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'no_jurnal';
+    protected $primaryKey = 'no_pesan';
     public $incrementing = false;
     protected $keyType = 'string';
     public $timestamps = false;
-    protected $table = "jurnal";
-    protected $fillable=['no_jurnal','tgl_jurnal','keterangan','no_akun','debet','kredit'];
+    protected $table = "tampil_pemesanan";
+    protected $fillable=['kd_brg','no_pesan','nm_brg','qty_pesan','sub_total'];
 }
