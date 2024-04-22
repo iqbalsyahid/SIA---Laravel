@@ -8,6 +8,7 @@ use App\Http\Controllers\AkunController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\PemesananController;
 use App\Http\Controllers\DetailPesanController;
+use App\Http\Controllers\PembelianController;
 
 
 Auth::routes();
@@ -42,3 +43,11 @@ Route::get('/transaksi/hapus/{kd_brg}',[PemesananController::class, 'destroy']);
 //Route Detail Pesan
 Route::post('/detail/store', [DetailPesanController::class, 'store']);
 Route::post('/detail/simpan', [DetailPesanController::class, 'simpan']);
+
+//Route Pembelian
+Route::get('/pembelian', [PembelianController::class, 'index'])->name('pembelian.index');
+Route::get('/pembelian-beli/{id}', [PembelianController::class, 'edit']);
+Route::post('/pembelian/simpan', [PembelianController::class, 'simpan']);
+
+//Route Cetak Invoice
+Route::get('/laporan/faktur/{invoice}', [PembelianController::class, 'pdf'])->name('cetak.order_pdf');
