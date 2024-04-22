@@ -497,9 +497,6 @@ Setelah menjalankan perintah di atas, Anda dapat melakukan migrasi dengan perint
     php artisan make:seeder SettingSeeder
     php artisan db:seed
 
-## Pertemuan 8
-
-    Libur UTS
 
 ## Pertemuan 9
 
